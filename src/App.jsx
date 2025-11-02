@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import LoginPage from "./components/ui/loginpage"
 import RegisterPage from "./components/ui/registerPage"
-import Admindashboard from "./components/ui/Admindashboard"
+import AdminDashboard from "./components/ui/Admindashboard"
 import EmpDashboard from "./components/ui/empdashboard"
 import { Toaster } from "@/components/ui/sonner";
 import Tasks from "./components/ui/tasks"
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginPage />} />
-        <Route path="/admindashboard" element={<Admindashboard />} />
+        <Route path="/admindashboard" element={<AdminDashboard />} />
         <Route path="/empdashboard" element={<EmpDashboard />} />
         <Route path="/registerpage" element={<RegisterPage />} />
         <Route path="/loginpage" element={<LoginPage />} />
