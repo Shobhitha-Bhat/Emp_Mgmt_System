@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 // import Dashboard from "./Dashboard"
 import LoginPage from "./components/ui/loginpage"
 import RegisterPage from "./components/ui/registerPage"
-import AdminDashboard from "./components/ui/admindashboard"
+import AdminDashboard from "./components/ui/Admindashboard"
 import EmpDashboard from "./components/ui/empdashboard"
 import { Toaster } from "@/components/ui/sonner";
 import Tasks from "./components/ui/tasks"
