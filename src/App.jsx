@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import LoginPage from "./components/ui/loginpage"
 import RegisterPage from "./components/ui/registerPage"
 import AdminDashboard from "./components/ui/Admindashboard"
-import EmpDashboard from "./components/ui/empdashboard"
+import EmpDashboard from "./components/ui/Empdashboard"
 import { Toaster } from "@/components/ui/sonner";
 import Tasks from "./components/ui/tasks"
 import Emplist from "./components/ui/emplist"
