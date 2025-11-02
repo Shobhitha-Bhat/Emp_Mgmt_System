@@ -186,8 +186,23 @@ const dispatch = useDispatch();
               </p>
             </CardFooter>
           </Card>
+      <p>
+      Credentials:
+            username: "admin",
+    email: "admin@company.in",
+    password: "admin123",
+    role: "admin",
+      </p>
+      <p>
+        Credentials:
+        username: "rahul",
+    email: "rahul@company.in",
+    password: "rahul123",
+    role: "employee"
+      </p>
         </div>
       </form>
+
     </>
   );
 }
